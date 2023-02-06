@@ -1,0 +1,25 @@
+/*
+?                         METODOLOGÍA BEM
+
+Una metodología en CSS son una serie de consejos para estructurar nuestras
+clases de una forma sencilla, escalable y reutilizable.
+
+BEM es una de las metodoloías más utilizadas en el mundo.
+Su nombre viene de las siglas Block, Element, Modifier.
+	Block(bloque) Es cualquier elemento autónomo y aislado de nuestro
+	documento.
+	Element(elemento) Es cada uno de los elementos del bloque.
+	Modifier (modificador) Cuando un bloque se repite en otro lugar de
+	nuestra web pero con alguna
+	modificación.
+
+Los bloques se suelen denominar con una sola palabra o con dos palabras
+separadas con un guion si se puede
+existir conflicto de estilos.
+
+Los elementos se nombran con el nombre del bloque al que pertenecen y su
+nombre con dos guiones bajos ⁡⁢⁢⁢__⁡
+
+Los modificadores se nombran con el nombre del bloque al que pertenecen y su modificador con dos guiones
+medios ⁡⁢⁢⁢--⁡
+*/

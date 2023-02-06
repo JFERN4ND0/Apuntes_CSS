@@ -1,0 +1,94 @@
+/*
+~					BOX MODEL
+
+En la web todo son cajas, al conjunto de estas cajas y la forma en la que
+el navegador los dibuja se le denomina LAYOUT.
+Las propiedades principales de cada una de estas cajas son el ancho (width
+y el alto (height).
+Existen dos tipos de elementos en HTML, elementos en línea (inline) y de
+bloque (block) estas propiedades se pueden modificar con el atributo
+display.
+	|Elementos inline:
+		Son elementos que sólo ocupan su contenido.
+		No se pueden modificar ni su ancho ni su alto.
+	|Elementos block:
+		Ocupan todo el ancho disponible.
+		Se les puede asignar un ancho y alto.
+
+De adentro hacia afuera las areas se llaman:
+°	contenido -> Padding -> Border -> Outline -> Margin
+
+outline es parecido al border pero no ocupa espacio.
+
+
+
+	|MARGIN:
+
+		Es la separación entre una caja y las cajas adyacentes.
+		Es un shorthand (propiedad abreviada)
+			⁡⁣⁢⁣Margin-top⁡: Margen superior
+			⁡⁣⁢⁣Margin-right⁡: Margen derecho
+			⁡⁣⁢⁣Margin-bottom⁡: Margen inferior
+			⁡⁣⁢⁣Margin-left⁡: Margen izquierdo
+
+			⁡⁣⁢⁣Margin⁡: 1em; (top right bottom left)
+			Margin: 1em 2em; (XY)
+			Margin: 1em 2em 3em; (top X bottom)
+			Margin 1em 2em 3em 4em;(top right bottom left)
+
+
+	|PADDING:
+
+		Relacion entre el contenido y su borde
+		Es un shorthand (propiedad abreviada)
+			⁡⁣⁢⁣Padding-top⁡: padding superior
+			⁡⁣⁢⁣Padding-right⁡: padding derecho
+			⁡⁣⁢⁣Padding-botton⁡: padding inferior
+			⁡⁣⁢⁣Padding-left⁡: padding izquierdo
+
+		igual que el margin
+
+
+	|Border:
+
+		Es la propiedad que nos permite modificar el borde de la caja
+		Es un shorthand (propiedad abreviada)
+		⁡⁣⁢⁣border-width⁡: ancho del borde
+			border-top-width
+			border-right-width
+			border-bottom-width
+			border-left-width
+		⁡⁣⁢⁣border-style⁡: estilo del borde
+			border-top-style
+			border-right-style
+			border-bottom-style
+			border-left-style
+				valores de style:
+				none
+				hidden
+				dotted
+				dashed
+				solid
+				double
+				groove
+				ridge
+				inset
+				outset
+		⁡⁣⁢⁣border-color⁡: color del borde
+			border-top-color
+			border-right-color
+			border-bottom-color
+			border-left-color
+
+
+	|Box-sizing:
+
+		Es la propiedad que nos permite controlar
+		el cálculo que hace el navegador a la
+		hora de modificar las propiedades content,
+		padding y border
+			valores:
+			⁡⁣⁢⁣content-box⁡ -> Valor por defecto
+			⁡⁣⁢⁣border-box⁡ -> Cálculo de tamaño del
+			elemento incluyendo el padding y el border.
+*/

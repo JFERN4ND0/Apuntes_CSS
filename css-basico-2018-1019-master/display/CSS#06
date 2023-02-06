@@ -1,0 +1,17 @@
+					DISPLAY
+
+Nos permite definir cómo se comparta una caja.
+De forma natural existen elementos en línea y elementos en bloque.
+Los valores de esta propiedad son:
+	inline -> Establece que la caja se comporta como un elemeno en línea
+	block -> Establece que la caja se comporta como un elemento en bloque
+	inline-block -> Se comporta como un elemento en línea pero acepta width y heigth
+	none -> Oculta el elemento pero se sigue renderizando
+	table -> Imita el comportamiento de una tabla
+	list-item -> Imita el comportamiento de una lista
+
+	flex -> maquetar componentes
+	grid -> maquetar layout
+
+
+	

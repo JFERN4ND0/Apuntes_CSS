@@ -1,0 +1,6 @@
+RESETEAR ESTILOS DE LOS NAVEGADORES
+
+Todos los navegadores tienen por defecto su hoja de estilo que se ocupa en caso de escribir nada
+Para que el codigo sea exactamente igual en todos los navegadores se necesita sobre escribir esos estilos
+para ello una hoja de estilos que se recomienda utilizar es normalize, existen más pero esa es la más
+utilizada

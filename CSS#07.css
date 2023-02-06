@@ -1,0 +1,106 @@
+/*					
+				° PSEUDOELEMENTOS
+
+Se utilizan para dar estilo a partes especificas de un elemento.
+La sintaxis es ⁡⁢⁢⁢selector::pseudo-element { estilos }⁡
+
+Existen 5 pseudoelementos:
+	⁡⁣⁢⁣::first-line⁡ (Elementos de bloque) (primera línea)
+	⁡⁣⁢⁣::first-letter⁡ (Elementos de bloque) ( primera letra)
+	⁡⁣⁢⁣::selection⁡ (da estilo a un trozo que el usuario seleccione
+	actualmente lo an quitado)
+	⁡⁣⁢⁣::after⁡ (el elemento se pone antes)
+	⁡⁣⁢⁣::before⁡ (El elemento se pone despues)
+		La propiedad content es obligatoria y son elementos de linea
+		por defecto
+		Son hijos del elemento al que pertenecen
+
+
+				°	PSEUDO CLASES
+
+Son selectores que reaccionan en tiempo real detectando la interacción
+de usuario con algunos elementos
+Funcionan con todos los selectores de CSS
+No están atados a ningún elemento
+Su sintaxis es:
+*	selector:pseudoclase{
+*		estilos
+*	}
+*
+*	:seudoclase{
+*		estilos
+*	}
+
+
+?Dynamic
+
+	⁡⁣⁡⁣⁢⁣:link (⁡⁡⁣⁢⁣Links⁡⁣⁢⁣)⁡⁡ - Link no visitado
+	⁡⁣⁢⁣:visited (⁡⁣⁢⁣Links⁡⁡⁣⁢⁣)⁡⁡ - Link visitado
+	⁡⁣⁢⁣:hover⁡ - Al poner el mouse sobre el elemento
+	⁡⁣⁢⁣:active (Links)⁡ - El momento del click
+	⁡⁣⁢⁣:focus⁡ - Cuando el elemento tiene foco
+
+
+?Target
+
+	⁡⁣⁢⁣:target⁡ - Elemento que es objeto de un marcador o ancla
+
+
+?Language
+
+	⁡⁣⁢⁣:lang()⁡ - Elemento que contiene el atributo lang que especifiquemos
+
+
+?UI States
+	⁡⁣⁢⁣:enabled⁡
+	⁡⁣⁢⁣:disabled⁡
+	⁡⁣⁢⁣:checked⁡
+	⁡⁣⁢⁣:in-range⁡
+	⁡⁣⁢⁣:out-of-range⁡
+	⁡⁣⁢⁣:required⁡
+	⁡⁣⁢⁣:optional⁡
+	⁡⁣⁢⁣:valid⁡
+	⁡⁣⁢⁣:invalid⁡
+	⁡⁣⁢⁣:fullscreen⁡
+
+
+?Structural
+	⁡⁣⁢⁣:root⁡ - Representa la raiz del documento (html) usando una
+	pseudoclase tenenmos más especificidad que si usáramos html
+
+	⁡⁣⁢⁣:empty⁡ - Esta pseudoclase se aplica para los elementos vacios,
+	es decir, etiquetas que no tienen contenido
+
+	|-child
+		⁡⁣⁢⁣:first-chilg⁡ -> Selecciona al primer hijo
+		(independientemente del tipo de etiqueta)
+
+		⁡⁣⁢⁣:nth-child()⁡ -> Selecciona al hijo n
+		(independientemente del tipo de etiqueta)
+
+		⁡⁣⁢⁣:nth-last-child()⁡ -> Selecciona al hijo n empezando a
+		contar desde el último (independientemente del tipo de etiqueta)
+
+		⁡⁣⁢⁣:only-child()⁡ -> Selecciona al hijo unico
+		(independientemente del tipo de etiqueta)
+
+	|-type
+		⁡⁣⁢⁣:first-of-type⁡
+		⁡⁣⁢⁣:last-of-type⁡
+		⁡⁣⁢⁣:nth-of-type()⁡
+		⁡⁣⁢⁣:nth-last-of-type()⁡
+		⁡⁣⁢⁣:only-of-type⁡
+
+	
+	|Valores posibles:
+
+	⁡⁣⁢⁣odd⁡ - Impares
+	⁡⁣⁢⁣even⁡ - Pares
+	⁡⁣⁢⁣numeros enteros⁡ - 2, 3, 4...
+	⁡⁣⁢⁣equaciones⁡ (1n, 3n, 4n+1, n+4, ...)
+
+
+?Negation
+	⁡⁣⁢⁣:not()⁡ - Selecciona al elemento que no cumpla la condición, se
+	puede poner cualquier selector salvo otro :not
+*/

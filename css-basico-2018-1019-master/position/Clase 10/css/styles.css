@@ -1,0 +1,39 @@
+/* 
+Position relative
+
+Su punto de referencia (contexto) es el punto donde aparece en el flujo
+
+Al ser un elemento posicionado lo podemos mover en los 3 ejes X Y Z
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box-1 {
+    background-color: lightcoral;
+    position: relative;
+    border-radius: 50px;
+    top: 100px;
+    left: 100px;
+}
+
+.box-2 {
+    background-color: lightgreen;
+    position: relative;
+}

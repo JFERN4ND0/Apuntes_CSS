@@ -1,0 +1,61 @@
+.box {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	margin: .5em;
+	text-align: center;
+	line-height: 200px;
+	font-size: 2.5em;
+	display: inline-block;
+}
+
+.box--color {
+	color: blueviolet;
+	background-color: aquamarine;
+}
+
+.box--rgb {
+	color: rgb(255, 0, 0);
+	background-color: rgb(20, 12, 54);
+}
+
+.box--rgba {
+	color: rgba(89, 68, 96, .5);
+	background-color: rgba(224, 125, 5, .8);
+}
+
+.box--hexa {
+	color: #9f4fae;
+	background-color: #ffff00;
+}
+
+.box--hsl{
+	color: hsl(120, 100%, 50%);
+	background-color: hsl(255, 50%, 65%);
+}
+
+.box--hsla {
+	color: hsla(359, 45%, 52%, 1);
+	background-color: hsla(150, 45%, 40%, .5);
+}
+
+.caja {
+	background-image: linear-gradient(red 25%, blue 25% 45%, yellow 70%); 
+}
+
+.caja2 {
+	background-image: radial-gradient( violet 45%, blue 25% 45%, red);
+}
+
+.caja3 {
+	background-image: radial-gradient(ellipse 40px 90px at center, red, blue);
+}
+
+.degradados {
+	background-image: linear-gradient(45deg, red 50%, blue 50%);
+	background-size: 30px 30px;
+}
+
+.onda {
+	background-image: repeating-radial-gradient(circle 20px, pink, blueviolet);
+}

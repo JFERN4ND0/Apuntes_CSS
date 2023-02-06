@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>EJEMPLO</title>
+    <!-- 
+	Insertar css en la cabezera, no recomendable salvo que tengamos una sóla página o pruebas
+		<style>
+			p{
+				color: red;
+			}
+		</style>
+
+	Estilo en línea, no recomendado para estilos estáticos, sólo para estilos que se tienen que
+	calcular en tiempo real, con JavaScript por ejemplo.
+		<h1 style="color:blue">Encabezado</h1>
+
+	Trayendo una hoja de estilos externa, la forma más recomendada para poder reutilizar el código
+		<link rel="stylesheet" href="styles-dist.css"
+
+	Importando con la regla @import url(), no se recomiendo para evitar posibles fallos
+		<style>
+			@import url("styles-dist.css");
+		</style>
+-->
+    <link rel="stylesheet" href="styles-dist.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+  </head>
+  <body>
+    <h1 class="title">Encabezado</h1>
+    <p class="texto">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <a class="rojo verde" href="hola">enlace 1 rojo verde</a>
+    <h1 id="tit">Encabezado</h1>
+    <p id="tex">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <a class="rojo" href="#">Enlace2 rojo</a>
+    <a class="verde" href="#">Enlace3 verde</a>
+    <a class="verde rojo" href="#">Enlace4 verde rojo</a>
+
+    <h1>Título</h1>
+    <h2>subtítulo</h2>
+    <h2>otro subtítulo</h2>
+    <h3>otro subtitulo más</h3>
+    <h3>Otro subTítulo</h3>
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna <span>lorem </span> aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat. <span>Duis </span> aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </body>
+</html>

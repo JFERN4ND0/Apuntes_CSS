@@ -1,0 +1,66 @@
+						POSITION
+
+Es la propiedad que nos permite modificar el flujo del HTML
+sus valores son:
+	Static(Valor por defecto)
+	Relative
+	Absolute
+	Fixed
+	Sticky
+
+Al tener un elemento posicionado podemos moverlo en los 3 ejes
+	top:Podemos mover el elemento en relación a la parte superior.
+	right: Podemos mover el elemento en relación a la parte derecha.
+	bottom: Podemos mover el elemento en relación a la parteinferior.
+	left: : Podemos mover el elemento en relación a la parteizquierda.
+	z-index: Podemos mover el elemento en el eje z.
+
+Flujo HTML -> Es el orden en el que aparecen los elementos en el documento
+Espacio -> Es el espacio que ocupa un elemento en el documento
+
+					POSITION RELATIVE
+
+El valor relative hace que el elemento se coloque respecto a su posición en el flujo
+Al moverlo el elemento conserva su espacio reservado
+Su punto de referencia no se modificará aunque movamos el elemento
+
+Su punto de referencia (contexto) es el punto donde aparece en el flujo
+Al ser un elemento posicionado lo podemos mover en los 3 ejes X Y Z.
+
+top y left valen más que right y bottom
+
+
+					POSITION ABSOLUTE
+
+El valor absolute hace que el elemento se coloque respecto a su contenedor posicionado
+más cercano, si no encuentra ninguno será el viewport.
+El elemento no conserva su espacio en el flujo.
+Si no tiene dimensiones declaradas, sus dimensiones se ajustan al contenido.
+Su punto de referencia no se modificará aunque movamos el elemento.
+
+			
+					POSITION FIXED
+
+Hace que el elemento se coloque respecto al viewport.
+El elemento no conserva su espacio en el flujo.
+Si no tiene dimenciones declaradas, sus dimenciones se ajustan al contenido.
+Su punto de referencia no se modificará aunque movamos el elemento.
+Cuando hacemos scroll el elemento no se moverá, se queda fijado.
+
+
+
+					POSITION STICKY
+
+Es experimental, no lo soportan todos los navegadores
+Es una mezcla entre relative y fixed
+El elemento conserva su espacio en el flujo
+Si no tiene dimensiones declaradas, sus dimensionesse ajustan al contenido
+Su punto de referencia no se modificará aunque movamos el elemento.
+Cuando hacemos scroll el elemento se moverá hasta alcanzar el tope establecido
+
+
+						Z-INDEX
+Nos permite modificar el orden de las capas en el eje z (profundidad)
+Admite valores positivos y negativos
+Es recomendable usar valores no consecutivos
+Si el padre tiene z-index declarado no podremos poner a un hijo por encima

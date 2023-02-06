@@ -1,0 +1,32 @@
+/* 
+Position fixed
+
+El elemento no conserva su espacio en el flujo.
+
+Si no tiene dimensiones declaradas, sus dimensiones se ajustan al contenido.
+
+Su punto de referencia (contexto) es el viewport (el espacio visible en pantalla)
+
+Al ser un elemento posicionado lo podemos mover en los 3 ejes X Y Z
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.header {
+    text-align: center;
+    padding: 25px 0;
+    background-color: lightskyblue;
+    color: orangered;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

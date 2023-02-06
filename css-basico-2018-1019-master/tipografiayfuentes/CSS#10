@@ -1,0 +1,77 @@
+							TIPOGRAFÍAS
+
+A los tipos de letra que existen se les denomina fuentes o tipografía
+Podemos dividirlo en:
+	-Familias tipográficas: Fuentes específicas con nombre(Arial, Verdana, ...)
+	-Familias genéricas: Fuentes según sus características (sarif, cursive, ...)
+		serif: Tienen un adorno en los remates
+		sans-serif: Tienen un corte seco en los remates
+		cursive: Emulan tipografia manuscrita
+		fantasy: Letra decorativa
+		monospace: Todos los caracteres tienen el mismo ancho ancho
+
+Cuando elegimos una fuente debemos poner fuentes de reserva.
+
+	body {
+		font-family: 'Times new Roman', Times, serif;
+	}
+
+Si una fuente tipográfica tiene más de una palabra separada por espacios en su
+nombre deberá ir entre comillas
+
+Las propiedades para cambiar el estilo de las fuentes/textos son:
+	
+	FONT
+		font-family: Establece la familia tipográfica
+			Se utiliza el nombre propio de la fuente o una familia genérica,
+			se recomienda utilizar SIEMPRE fuentes de reserva.
+
+		font-size: Establece el tamaño de fuente
+			Se define en unidades:
+				px: pixeles
+				em: medida relativa al contexto (al padre)
+				rem: medida relativa al html
+				%: medida relativa al tamaño actual
+
+				vh: medida relativa al heiht del viewport
+				vw: medida relativa al width del viewport
+				vmin: medida relativa al valor mínimo de viewport
+				vmax: medida relativa al valor máximo de viewport
+
+		font-weight: Establece el grosor de la fuente
+			bold | normal | 100-900
+
+		font-style: Establece el estilo de la tipografia
+			normal | italic | oblique
+
+
+	TEXT
+		text-transform: Transforma el texto a mayúsculas, minúsculas, etc.
+			lowercase (minúsculas) | uppercase (mayusculas) | capitalize
+			(primera letra de cada palabra en mayúsculas)
+
+		text-align: Alinea el texto del elemento a la izquierda, derecha, etc.
+		SOLO ELEMENTOS DE BLOQUE (y botones)
+			center | left | right | justify
+
+	text-decoration: Establece la decoración del texto
+		overline | line-throught | underline | none
+
+	text-indent: mueve la primera linea de uun texto. SOLO ELEMENTOS DE BLOQUE
+
+	OTHER
+		line-height: Establece la altura de la linea
+
+		letter-spacing: Establece la separacion de las letras con una medida de
+		cualquier unidad
+
+		Especificación w3c:
+https://www.w3.org/Style/Examples/007/fonts.en.html
+https://www.w3.org/TR/CSS22/fonts.html#font-family-prop
+
+Sitios gratuitos para fuentes
+    https://www.dafont.com/es/
+    https://www.1001fonts.com/
+
+    Analizar fuentes web
+        whatFont

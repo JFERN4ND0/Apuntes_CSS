@@ -1,0 +1,35 @@
+/*
+?					BORDER RADIUS
+
+Es un shorthand que engloba:
+|	border-top-left-radis
+|	border-top-right-radius
+|	border-bottom-right-radius
+|	border-bottom-left-radius
+
+	⁡⁣⁢⁣border-radius⁡: all;
+	⁡⁣⁢⁣border-radius⁡: top-left/bottom-right top-right/bottom-left;
+	⁡⁣⁢⁣border-radius⁡: top-left top-right/bottom-left bottom-right;
+	⁡⁣⁢⁣border-radius⁡: top-left top-right bottom-left bottom-right;
+
+
+?						ELIPSES
+
+	boder-radius: 10px / 50px;
+		border-top-left-radius: 10px 50px;
+		border-top-right-radius: 10px 50;
+		border-bottom-right-radius: 10px 50px;
+		border-bottom-left-radius: 10px 50px;
+
+	border-radius: 10px 50px / 50px 100px;
+		border-top-left-radius: 10px 50px;
+		border-top-right-radius: 50px 100px;
+		border-bottom-right-radius: 10px 50px;
+		border-bottom-left-radius: 50px 100px;
+
+	border-radius: 10px 50px 60px / 50px 100px 200px;
+		border-top-left-radius: 10px 50px;
+		bodrer-top-right-radius: 50px 100px;
+		border-bottom-right-radius: 60px 200px;
+		border-bottom-left-radius: 80px 300px;
+*/

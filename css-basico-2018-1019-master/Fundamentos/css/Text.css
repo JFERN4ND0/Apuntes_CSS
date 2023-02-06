@@ -1,0 +1,48 @@
+/* 
+Selector: El elemento al que vamos a aplicar estilos
+Propiedad: Lo que vamos a cambiar
+Valor: El nuevo valor que le vamos a dar a la propiedad
+Propiedad:Valor -> Se le denomina declaración
+Al conjunto de selector+declaracion(es) se le denomina regla
+
+⁡⁢⁢⁢selector{
+    propiedad:valor;
+    propiedad2:valor;
+    propiedadN:valor;
+}⁡
+
+~SELECTORES
+
+?Selectores Simples
+    |Selectores elementales
+        Selector ⁡⁣⁢⁣Universal⁡⁡ -> *
+        Selector de ⁡⁣⁢⁣tipo o etiqueta⁡ -> Nombre de la etiqueta
+    |Selectores de atributo
+        ⁡⁣⁢⁣id⁡ -> id del elemento
+        ⁡⁣⁢⁣clase⁡ -> clase del elemento
+        otros atributos
+            [⁡⁣⁣⁢atributo⁡] -> Selecciona los elementos con ese atributo
+            [⁡⁣⁣⁢atributo=valor⁡] -> Selecciona los elementos que coincidan
+            con el atributo=valor
+            [⁡⁣⁣⁢atributo^=valor⁡] -> Selecciona los elementos cuyo atributo
+            comience con valor
+            [⁡⁣⁣⁢atributo*=valor⁡] -> Selecciona los elementos cuyo atributo
+            contenga valor
+            [⁡⁣⁣⁢atributo$=valor⁡] -> Selecciona los elementos cuyoatributo
+            termine con valor
+            [⁡⁣⁣⁢atributo|=valor⁡] -> Selecciona los elementos cuyo atributo
+            comience con valor o valor-
+
+?Selectores Compuestos
+    ⁡⁣⁢Selectores ⁡⁣⁢⁣Agrupados⁡ -> Se agrupan los selectores separados
+    por comas y se escribe el estilo una sola ves
+    Selectores ⁡⁣⁢⁣Combinados⁡
+        Selector ⁡⁣⁣⁢descendiente⁡ -> Selecciona un elemento dentro de
+        otro
+        Selector de ⁡⁣⁣⁢Hermano siguiente⁡ + -> Selecciona el hermano
+        siguiente adyacente
+        Selector de ⁡⁣⁣⁢hermanos siguientes⁡ ~ -> Selecciona a todos los
+        hermanos siguientes
+        Selector de ⁡⁣⁣⁢hijo directo⁡ > -> Selecciona SOLO los hijos
+        directos
+*/

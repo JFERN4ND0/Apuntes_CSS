@@ -1,0 +1,55 @@
+OUTLINE
+
+Es una línea que rodea a la caja entre el border y el margin
+es un shorthand
+
+Sus propiedades son:
+	Width
+	Style
+	Color
+	Offset
+
+Existen bastantes combinaciones
+	outline-width: 2px; (top right bottom left)
+	outline-style: solid dotted;(Y X)
+	outline-color: red blue green; (top X bottom)
+	outline-width: 2px 3px 4px 5px; (top right bottom left)
+	outline-offset: +-px | em | rem....
+
+outline-width
+	px|em|rem|%|....
+
+outline-style
+	none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;
+	*Medidas que dependen del navegador*
+		thick (ancho)
+		medium (medio)
+		thin (fino)
+
+outline-color
+	css native|rgb|rgba|hsl|hsla|hexadecimal|transparent
+
+outline-top-(width | style | color )
+outline-right-(width | style | color )
+outline-bottom-(width | style | color )
+outline-left-(width | style | color )
+
+Outline es la propiedad que nos permite dibujar un
+borde por fuera del modelo de la caja.
+
+Es un shorthand que engloba
+    outline-width: Controla el ancho del outline
+    outline-style: Controla el estilo del outline
+    outline-color: Controla el color del outline
+
+Tiene las mismas propiedades y sintaxis que border,
+pero con algunas diferencias.
+    No ocupa sitio, ya que forma parte del
+    box-model
+    No se puede redondear
+    No se pueden controlar los lados de forma
+    independiente
+
+Tambien cuenta con la propiedad outline-offset, que
+nos permite aumentar o disminuir la distancia del
+outline respecto a la caja a la que pertenece

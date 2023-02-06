@@ -1,0 +1,48 @@
+/* 
+El modo de color HSL es el más intuitivo para los
+humanos. Su nombre viene de las siglas Hue (tono)
+Saturation (saturación) y Lightness
+(luminiciencia)
+
+El primer valor es el ángulo en el círculo
+cromático valores que os pueden servir como
+referencia para relacionar mejor los colores con
+sus ángulos.
+    0 -> rojo
+    60 -> amarillo
+    120 -> verde
+    180 -> cyan
+    240 -> azul
+    300 -> magenta
+
+El segundo valor es la saturación o intensidad
+del color.
+    0% -> gris
+    100% -> color puro
+
+El tercer valor es la luminosidad del color
+    0% -> negro, nada de luz
+    100% -> luz máxima
+
+⁡⁢⁢⁢Nota⁡: Es importante que aunque el valor de
+saturación o luminancia sea 0 hay que poner 0%
+si no, no funcionará
+
+El modo HSL tambien admite transparencia y su
+sintaxis es la misma que la del modo RGB. Tenemos
+dos sintaxis disponible.
+    hsla(h,s,l,a)
+    hsl(h s l / a)
+En ambos casos el valor alpha va de 0 a 1
+*/
+
+body {
+  background-color: hsl(0, 100%, 40%);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  box-shadow: 5px 5px 10px hsl(180 50% 0%);
+}

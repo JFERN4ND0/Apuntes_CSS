@@ -1,0 +1,16 @@
+/*
+?				ESPECIFICIDAD, HERENCIA Y  CASCADA
+
+La herencia se aplica con el valor inherit, esto obliga al elemento a
+heredar la propiedad de su elemento más cercano.
+La cascada es el orden en el que se aplicarán los estilos al ir leyendo el
+css. Los estilos que vienen después sobrescriben a los anteriores.
+La especificidad es el peso que tiene un selector cuando hay conflicto de
+estilos
+	La w3c divide la especificidad en:
+		Etiqueta----------------------------0,0,0,1
+		Clases y pseudoclases---------------0,0,1,0
+		ID----------------------------------0,1,0,0
+		Estilos en línea--------------------1,0,0,0 (No es recomendable)
+		!important--------------------------Gana a todo(no utilizar)
+*/

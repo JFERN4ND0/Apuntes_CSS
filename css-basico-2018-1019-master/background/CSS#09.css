@@ -1,0 +1,50 @@
+/*
+?						BACKGROUND
+
+Es una propiedad que nos permite darle un fondo a las cajas
+Es un shorthand
+Propiedades:
+	⁡⁣⁢⁣background-color⁡: Nos permite establecer un color de fondo
+
+	⁡⁣⁢⁣background-image⁡:url(ruta) Nos permite establecer una imagen
+	de fondo
+
+	⁡⁣⁢⁣background-repeat⁡: Nos permite establecer si un fondo se
+	repite o no
+		⁡⁣⁣⁢repeat-x|repeat-y|no-repeat⁡
+
+	⁡⁣⁢⁣background-size⁡: Nos permite establecer el tamaño del 
+	background
+		⁡⁣⁣⁢x [y]|auto|cover|contain⁡
+
+		el valor en y es opcional, si no se pone lo calcula automáticamente
+		cover cubre la caja por completo incluso deformandose
+		contain la imagen se ajusta al contenido
+
+	⁡⁣⁢⁣background-position⁡: Nos permite establecer la posición del
+	background, si no se especifica un segundo valor será center
+		left top
+		left center
+		left bottom
+		right top
+		right center
+		right bottom
+		center top
+		center center
+		center bottom
+		x% y%
+		xpos ypos
+		initial
+		inherit
+
+	⁡⁣⁢⁣background-attachment⁡: Nos permite establecer si el background
+	es relativo a la caja o al viewport
+
+	⁡⁣⁢⁣background-clip⁡: Nos permite establecer en qué parte de la
+	caja se dibujará el fondo
+		⁡⁣⁣⁢border-box|padding-box|content-box⁡
+
+	⁡⁣⁢⁣background-origin⁡: Nos permite establecer desde donde se
+	empezerá a dibujar el fondo
+		⁡⁣⁣⁢border-box|padding-box|content-box⁡
+*/

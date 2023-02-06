@@ -1,0 +1,39 @@
+/* 
+Ejemplos:
+    16px = 1rem
+
+Recomendaciones:
+    Para tamaños de fuente siempre usar rem
+    
+    Si la medida que establescais tiene que
+    crecer exponencialmente al tamaño del texto
+    utilizar em
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: lightcoral;
+    font-size: 10px;
+}
+
+/* .title {
+    font-size: 2rem;
+    font-size: 3em;
+} */
+
+.link {
+    background-color: lightcoral;
+    color: #333;
+    /* Se ve mal
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    */
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    font-size: 2rem;
+}

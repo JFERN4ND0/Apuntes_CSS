@@ -1,0 +1,51 @@
+INSERTAR CSS EN HTML
+
+
+Existen 4 formas:
+
+En la cabezera con la etiqueta
+	<style> código css </style>
+No es lo peor pero no es recomendable
+
+En línea dentro de la etiqueta
+	<p style="codigo css">
+Se suele ocupar cuando necesitas modificar en tiempo real o con JS
+
+Asociado a una hoja de estilos externa a nuestro documento
+	<link rel="stylesheet" href="styles.css">
+Es la más recomendada
+
+A través de @import dentro de las etiquetas <style></style>
+	<style>
+		@import url("styles.css");
+	</style>
+No se suele usar ya que si falla el import la pagina no carga
+
+
+
+SINTAXIS
+
+selector{
+	propiedad: valor;
+	...............
+}
+/*Comentarios en CSS*/
+
+
+at-rules
+@media{}
+@font-face{}
+@keyframes{}
+@import()
+
+
+TIPOS DE SELECTORES
+
+Un selector hace referencia al elemento que se le aplicará el estilo
+	Los selectores podemos agruparlos en 4 grupos:
+		Selectores básicos
+		Selectores combinadores
+		Selectores de pseudo-elementos
+		Selectores de pseudo-clases
+
+para una buena selección de los colores se usa su representación hexadecimal

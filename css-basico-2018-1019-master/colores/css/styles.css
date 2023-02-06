@@ -1,0 +1,36 @@
+/*
+?Colores
+    La mayoria de las pantallas funcionan con un
+    modo de color aditivo. La suma de RGB da como
+    resultado un blanco.
+
+    ⁡⁢⁢⁡⁣⁢⁣Keywords⁡ -> Palabras clave que representan
+    colores https://www.w3.org/wiki/CSS/Properties/color/keywords
+
+    !IMPORTANTE: Recordad que existe el color "transparent"
+*/
+
+body {
+  /* margin: 0;
+    background-color: #333; */
+  background-color: mediumorchid;
+  color: #333;
+}
+
+.main {
+  color: aquamarine;
+  /* background-color: currentColor; */
+}
+
+.box {
+  /* border-left: 100px solid red;
+    border-top: 100px solid lightcoral;
+    border-bottom: 100px solid green; */
+  /* border-left: 250px solid transparent;
+    border-top: 500px solid red;
+    border-right: 250px solid transparent; */
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  border: 2px solid;
+}

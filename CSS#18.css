@@ -1,0 +1,66 @@
+/*
+?							FLOAT
+
+* https://developer.mozilla.org/es/docs/web/CSS/float
+* https://developer.mozilla.org/es/docs/web/CSS/clear
+
+La propiedad float especifica si un elemento debe salir del flujo
+normal y aparecer a la izquierda o a la derecha de su contenedor. Los
+elementos de textos y los elementos en linea aparecerán a su alrededor.
+
+tiene tres valores posibles:
+	⁡⁣⁢⁣left⁡: flota el elemento a la izquierda del contenedor
+	⁡⁣⁢⁣right⁡: flota el elemento a la derecha del contenedor
+	⁡⁣⁢⁣none⁡: Elimina el float
+	⁡⁢⁢⁢::::::::::NO EXISTE FLOAT:CENTER::::::::⁡
+
+Un elemento flotando hace que el padre deje de contenerlo, hay varias
+formas de solucionarlo, la más cómoda es overflow:hidden
+
+
+?							FLEXBOX - BASE
+
+Es un modelo de layout que permite que las cajas sean flexibles, es un
+valor de la propiedad display.
+Existe display:flex y display:inline-flex para que el contenedor sea
+bloque o linea respectivamente.
+Se necesita un contenedor(flex-container) y al menos un hijo
+(flex-item).
+Las cajas flexibles son los item, el contenedor es el contexto al que
+pertenecen los items.
+
+
+?							FLEXBOX - EJES
+
+Existen dos ejes para colocar y alinear elementos.
+Por defecto el eje principal es horizontal y de izquierda a derecha y
+el eje secundario es vertical de arriba abajo.
+Se pueden intercambiar los ejes y la dirección de ambos.
+
+|FLEXBOX
+^	⁡⁣⁢display:flex⁡
+		Convierte el contenedor en un contexto para flexbox y hace que
+		el contenedor sea un elemento de bloque para los elementos que
+		lo rodean
+^	display:inline-flex⁡
+		Convierte el contenedor en un contexto para flexbox y hace que
+		el contenedor sea un elemento de bloque para los elementos que
+		lo rodean
+
+^	flex-direction: row(default) | row-reverse | column | column-reverse
+		Modifica la dirección y cual es el eje principal.
+		Por defecto es row (horizontal de izquierda a derecha)
+		row-reverse (horizantal de derecha a izquierda)
+		column vertical de arriba abajo
+		column-reverse vertical de abajo arriba
+
+^	flex-wrap: no-wrao(default) | wrap | wrap-reverse
+		Controla si los elementos saltarán de linea o no
+		no-wrap es el valor por defecto, un contenedor flex va a hacer
+		que todos los elementos se queden en una linea si no le
+		especificamos lo contrario wrap hace que los elementos que no
+		quepan en una linea (manteniendo sus dimensiones, si las
+		tuvieran) salten a la linea inferior.
+		wrap-reverse hace lo mismo que wrap pero en lugar de hacer que
+		salten a la linea inferior, hace que salten a la linea superior.
+*/

@@ -1,0 +1,30 @@
+/*
+	⁡⁣⁢⁣clip-path⁡: Es una máscara que oculta partes de una caja
+		⁡⁣⁣⁢circle()⁡ dibuja un círculo, puede tener una medida fija,
+		⁡⁣⁣circle(100px)⁡ o podemos especificar un centro con at,
+		circle(100px at medidax mediday | palablaClavex palabraClavey)
+
+		⁡⁣⁣⁢ellipse()⁡: dibuja una elipse,funciona igual que el
+		círculo, pero en este caso tenemos que especificar 2 centros,
+		el horizontal y el vertical
+
+		⁡⁣⁣⁢inset()⁡: dibuja un borde transparente por dentro de la caja
+			inset(all | Y X | top x bottom | top left bottom right)
+			para redondear las esquinas despues de los valores de
+			insert 
+			pondremos round
+			insert(*** round all | 
+				top-left bottom-right top-right bottom-left |
+				top-left top-right & bottom-left bottom-right
+				top-left top-right bottom-right bottom-left)
+
+		⁡⁣⁣⁢polygon()⁡: Especifica una serie de puntos (mínimo 3) para
+		definir la zona visible siendo el punto 0 0 la esquina superior
+		izquierda los
+		puntos se especifican por parejas de ejeX y ejeY separados por
+		comas
+			polygon(0 0, 100% 0, 0 100%)
+
+	Generador de clip-path: 
+	* https://bennettfeely.com/clippy
+*/

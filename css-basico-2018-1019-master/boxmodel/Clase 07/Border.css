@@ -1,0 +1,39 @@
+/*
+? BORDER
+
+Línea que rodea la caja
+Es un shorthand
+
+Sus propiedades son:
+^  	Whidth
+^	Style
+^	Color
+
+Existen bastantes combinaciones
+	⁡⁣⁢⁣border-width⁡: 2px; (top right bottom left)
+	⁡⁣⁢⁣border-style⁡: solid dotted;(Y X)
+	⁡⁣⁢⁣border-color⁡: red blue green; (top X bottom)
+	⁡⁣⁢⁣border-width⁡: 2px 3px 4px 5px; (top right bottom left)
+
+^border-width
+	px|em|rem|%|....
+
+^border-style
+	none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;
+	*Medidas que dependen del navegador*
+		thick (ancho)
+		medium (medio)
+		thin (fino)
+
+^border-color
+	css native|rgb|rgba|hsl|hsla|hexadecimal|transparent
+
+⁡⁣⁢⁣border-top ⁡-> (width | style | color )
+⁡⁣⁢⁣border-right ⁡-> (width | style | color )
+⁡⁣⁢⁣border-bottom ⁡-> (width | style | color )
+⁡⁣⁢⁣border-left ⁡-> (width | style | color )
+
+
+lo abitual es
+° border: ancho estilo color;
+*/

@@ -1,0 +1,48 @@
+/*
+?						TABLAS
+
+	⁡⁣⁢⁡⁣⁣⁡⁣⁢⁣table-layout⁡⁡⁡: Define como se comportan las
+	dimensioines de una tabla y los anchos de las "columnas"
+		⁡⁣⁣⁢automatic⁡: valor por defecto
+		⁡⁣⁢⁡⁣⁣⁢fixed⁡⁡: necesita un width declarado, si no se le da un
+		ancho a cada columna se distribuyen equitativamente
+
+	⁡⁣⁢⁣caption-side⁡: Define donde se conoce el caption de una tabla
+		⁡⁣⁣⁢top⁡: valor por defecto
+		⁡⁣⁣⁢bottom⁡: se coloca al pie de la tabla
+
+	⁡⁣⁢⁣border-spacing⁡: controla el espacio entre las celdas
+	recibe una medida en cualquier unidad
+
+	⁡⁣⁢⁣border-collapse⁡: Controla si las celdas se mantienen juntas o
+	separadas.
+		⁡⁣⁣⁢separate⁡: Valor por defecto
+		⁡⁣⁣⁢collaps⁡: junta las celdas para no
+
+	⁡⁣⁢⁣empty-cell⁡: controla qué hacer con las celdas vacías
+		⁡⁣⁣⁢show⁡: valor por defecto
+		⁡⁣⁣⁢hide⁡: oculta las celdas vacías
+
+
+
+?						IMAGENES
+
+No existen propiedades para imágenes en CSS
+	1. Imágenes responsive. En el archivo base se recomienda poner esta
+	regla
+*		img{
+*			max-width: 100%;
+*		}
+
+	2. Las imágenes por defecto en elementos inline, esto causa un
+	espacio por debajo debido a su line-height, se puede solucionar de dos formas.
+		Dando un line-height:0 al contenedor o un display:block ala imagen
+
+	3. Centrado horizontal
+		imagen con display:block y márgenes laterales automáticos
+		text-align: center, si la imagen no es de bloque
+
+	4. Centrado vertical
+		flexbox (La mejor opción)
+		vertical-align: middle, A la imagen y al texto
+*/
